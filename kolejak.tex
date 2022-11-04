@@ -38,7 +38,7 @@ Cieľom článku je zamerať sa nad potenciálnym ovplyvnením automobilovej pre
 %\input{novy.txt}
 \newpage
 
-\section{Výhody a nevyhody}
+\section{Výhody a nevyhody}\label{rizika}
 
 Autonómne vozidla nám ponúkajú príležitosť využiť výhody najnovších senzorických technológií a zároveň aj umelej inteligencie. Práve táto umelá inteligencia má rozhodovať o riadení vozidla. A tým zmierniť počet rizík spájaných s cestnou premávkou. \par Pri zameraní na AI riadenie sa dostávame ku dvom protichodným smerom. Rozhodovanie medzi rizikom a výhodou technológie. Kombinácia senzorov a inteligentných technológií, poskytuje topografickú reprezentáciu cestnej premávky. Táto technológia s pomocou AI dokáže robiť bezprostrednejšie a presnejšie rozhodnutia o jazde. Vďaka AI sme taktiež schopný odstrániť problémy spojené s ľudskými slabosťami. Ako napríklad únava, intoxikácia, nesprávne vnímanie spolu s problematickými rozhodnutiami, ktoré ľudia počas jazdy robia.\par Všetky tieto fakty predstavujú bezpečnostný argument, ktorý potvrdzuje prínos pre spoločnosť. Netreba ale zabúdať na alternatívnu perspektívu, ktorá zdôrazňuje potenciál pre nové riziká.
 \cite{floridi2018ai4people,doi:10.1080/08839514.2019.1600301}
@@ -75,16 +75,29 @@ Ultrazvukové senzory sa využívajú na meranie vzdialenosti k objektu, vďaka 
 	\end{split}
 	\end{equation}
 
-\emph{Rýchlosť c vlny je v metroch za sekundu a ToF je čas letu v sekundách.}
+\begin{center}
+\centering
+{
+\emph{Rýchlosť c vlny je v metroch za sekundu a ToF je čas letu v sekundách.\cite{s19030648}.}
 \\~\\
+}
+\end{center}
+
+
 Tieto snímače sa vo vozidlách používajú v parkovacích systémoch, alebo ako snímače na meranie krátkej vzdialenosti pri nízkych rýchlostiach\ref{fig:ultrazvuk}. Výhoda týchto snímačov je, že sú lacné a zároveň poskytujú dobré výsledky. Napríklad vzhľadom od nepriaznivych podmienok sú nezávisle.
 
 \begin{figure*}[!h]
 \centering
 \includegraphics[scale=0.7]{senzory1.jpg}
-\emph{( a ) Ultrazvukové snímače do auta od firmy Bosch; b ) asistenčný parkovací systém od Audi.}
 \label{fig:ultrazvuk}
 \end{figure*}
+
+\begin{center}
+\centering
+{
+\emph{( a )Ultrazvukové snímače do auta od firmy Bosch; b ) asistenčný parkovací systém od Audi\cite{s19030648}.}
+}
+\end{center}
 
 \newpage
 
@@ -103,7 +116,7 @@ Prijame využitie je napríklad pri detekcii mŕtveho uhlu, pri asistentovi zmen
 \begin{center}
 \centering
 {
-\emph{ a) radarová anténa Microarray; b) viaclalokový systém.}
+\emph{ a) radarová anténa Microarray; b) viaclalokový systém\cite{s19030648}.}
 }
 \end{center}
 
@@ -131,7 +144,7 @@ Systémy LiDAR fungujú na princípe: začiatok merania letu pulzného svetla (k
 \centering
 {
 \emph{Prevádzkové schémy: (a) Rotujúci 2D LiDAR, (b) Rotujúci 3D LiDAR, 
-(c)polovodičový 3D LiDAR}
+(c)polovodičový 3D LiDAR\cite{s19030648}.}
 }
 \end{center}
 
@@ -155,12 +168,12 @@ V systéme vnímania autonómnych vozidiel a z hľadiska vlnovej dĺžky prijím
 
 \begin{center}
 \centering{
-\emph{ \ref{fig:tabulka} Tabuľka zobrazuje súhrn výhod a nevýhod senzorov analyzovaných v tejto časti. V tabuľke je zobrazených 11 znakov, ktoré boli kvantifikované v súlade s údajmi získanými v tomto prehľade. Kvantifikácia bola vykonaná pomocou štyroch skóre na zjednodušenie procesu: 0 – žiadne, 1 – nízke, 2 – stredné a 3 – vysoké. Prvých šesť funkcií predstavuje maximálnu kvalitu s najvyšším skóre a zvyšok získal najlepšiu kvalitu s minimálnym skóre.}}
+\emph{ \ref{fig:tabulka} Tabuľka zobrazuje súhrn výhod a nevýhod senzorov analyzovaných v tejto časti. V tabuľke je zobrazených 11 znakov, ktoré boli kvantifikované v súlade s údajmi získanými v tomto prehľade. Kvantifikácia bola vykonaná pomocou štyroch skóre na zjednodušenie procesu: 0 – žiadne, 1 – nízke, 2 – stredné a 3 – vysoké. Prvých šesť funkcií predstavuje maximálnu kvalitu s najvyšším skóre a zvyšok získal najlepšiu kvalitu s minimálnym skóre\cite{s19030648}.}}
 \end{center}
 
 
 \section{Ciele}
-Umelá inteligencia v Autonómnych vozidlách sa rozhoduje podľa dvoch koncepčných rámcov týkajúcich sa rozhodovacej kapacity a zmierňovania rizika. Aj keď prichádza mnoho naliehavých otázok týkajúcich sa toho, ako najlepšie skúmať a predvídať spoločenský dopad vznikajúcich technológií z hľadiska rizika \cite{asveld2009ethics}, nápadne málo pozornosti sa venuje koncepčným analýzam \cite{asveld2009ethics}. \par Tieto koncepčné analýzy zdôrazňujú nielen nedostatky vo vyšetrovaní technologických rizík a morálky, ale aj zjavnú medzeru v analytických metódach, ktoré riešia vznikajúci fenomén technologických rizík. Je tu nevyhnutná potreba zvýšenia vzdelania, aby sa umožnilo rôznorodému množstvu zainteresovaných strán prispievať k problémom súvisiacim so spoločenským využívaním technológií AI. Čo sa týka bezpečnosti AI tak tu taktiež vzniká nový etický problém. Napríklad v prípade, v ktorom by AI mala rozhodovať o živote a smrti.
+Umelá inteligencia v Autonómnych vozidlách sa rozhoduje podľa dvoch koncepčných rámcov týkajúcich sa rozhodovacej kapacity a zmierňovania rizika\ref{rizika}. Aj keď prichádza mnoho naliehavých otázok týkajúcich sa toho, ako najlepšie skúmať a predvídať spoločenský dopad vznikajúcich technológií z hľadiska rizika \cite{asveld2009ethics}, nápadne málo pozornosti sa venuje koncepčným analýzam \cite{asveld2009ethics}. \par Tieto koncepčné analýzy zdôrazňujú nielen nedostatky vo vyšetrovaní technologických rizík a morálky, ale aj zjavnú medzeru v analytických metódach, ktoré riešia vznikajúci fenomén technologických rizík. Je tu nevyhnutná potreba zvýšenia vzdelania, aby sa umožnilo rôznorodému množstvu zainteresovaných strán prispievať k problémom súvisiacim so spoločenským využívaním technológií AI. Čo sa týka bezpečnosti AI tak tu taktiež vzniká nový etický problém. Napríklad v prípade, v ktorom by AI mala rozhodovať o živote a smrti.
 ~\cite{doi:10.1080/08839514.2019.1600301,7368032}
 
 
